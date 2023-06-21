@@ -1,8 +1,6 @@
 // 3. Выведите с помощью цикла столбец четных чисел от 1 до 100.
 
-let chet = 2;
-
-while (chet<=100) {
-    console.log(chet)
-    chet=chet+2;
+for ( let i = 1 ; i <=100 ; i++){
+    if(i % 2 === 0)
+console.log(i)
 }
